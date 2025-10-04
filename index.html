@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumar Amityush | Portfolio</title>
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png?v=2">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png?v=2">
+    <link rel="shortcut icon" href="images/favicon.png?v=2">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png?v=2">
+    
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro" id="home">
+        <h1>Hi, I'm Kumar Amityush</h1>
+        <p>Aspiring Frontend Developer | Web Developer</p>
+        <a href="resume.pdf" class="cta-button">View My Resume</a>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="images/Profilepfp.jpeg" alt="My profile picture">
+            </div>
+            <div class="about-text">
+                <p>Hello! I'm a developer-in-training, fascinated by how code brings ideas to life on the web. I'm currently focused on mastering front-end technologies and enjoy turning complex problems into beautiful, interactive designs.</p>
+                <p>This portfolio is a collection of projects I've worked on while learning.</p>
+                <div class="skills">
+                    <h3>My Skills</h3>
+                    <div class="skills-list">
+                        <span class="skill-item">HTML5</span>
+                        <span class="skill-item">CSS3</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">Java</span>
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">Git-GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="images/weatherapp.png" alt="Weather App Screenshot">
+                </div>
+                <div class="project-info">
+                    <h3>Weather App</h3>
+                    <p>A weather application that fetches and displays real-time weather data from a third-party API for any city in the world.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">API</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Ninja-lgtm/weather-app" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </article>
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="images/portfolio demo.png" alt="Portfolio Template Screenshot">
+                </div>
+                <div class="project-info">
+                    <h3>Portfolio Template</h3>
+                    <p>The very website you are looking at! I built this responsive portfolio from scratch to practice my layout skills with CSS Flexbox and Grid, and to have a place to showcase my work.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">Flexbox</span>
+                        <span class ="tech-tag">Grid</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Ninja-lgtm/portfolio-template-repo" target="_blank">GitHub</a>
+                    </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-info">
+            <p>I'm always open to new opportunities and collaborations. Feel free to reach out or just say hi!</p>
+            <div class="social-links">
+                <a href="mailto:kamityush@gmail.com">Email Me</a>
+                <a href="https://www.linkedin.com/in/amityush-kumar-5926b11ba" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/Ninja-lgtm" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+        </div>
+        <form class="contact-form" action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <p>&copy; 2025 Kumar Amityush. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
